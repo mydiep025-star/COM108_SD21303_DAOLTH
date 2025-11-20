@@ -57,8 +57,7 @@ int main () {
             default:
                 printf("Lua chon khong hop le! Moi nhap lai\n");
                 break;
-            }
-            
+            } 
         }
     } while (luachon != 0);
     return 0;
